@@ -1,7 +1,7 @@
-name: buddhist_datetime_dateformat
-description: A dart package that help developer get DateTime's year in Buddhist calendar format, also support DateFormatter
+name: buddhist_datetime_dateformat_sns
+description: fork of https://github.com/teerasej/dart-flutter-buddhist-datetime-dateformat to support sound null safety
 version: 1.0.6
-homepage: https://github.com/teerasej/dart-flutter-buddhist-datetime-dateformat
+homepage: https://github.com/alandotic/dart-flutter-buddhist-datetime-dateformat
 
 environment:
   sdk: ">=2.11.0 <3.0.0"

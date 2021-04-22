@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:intl/intl.dart';
-import 'package:buddhist_datetime_dateformat/buddhist_datetime_dateformat.dart';
+import 'package:buddhist_datetime_dateformat_sns/buddhist_datetime_dateformat_sns.dart';
 
 void main() {
   Intl.defaultLocale = "th";
@@ -35,12 +35,12 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    
     var now = DateTime.now();
     var onlyBuddhistYear = now.yearInBuddhistCalendar;
 
     var formatter = DateFormat.yMMMMEEEEd();
-    var dateInBuddhistCalendarFormat = formatter.formatInBuddhistCalendarThai(now);
+    var dateInBuddhistCalendarFormat =
+        formatter.formatInBuddhistCalendarThai(now);
 
     return Scaffold(
         appBar: AppBar(
